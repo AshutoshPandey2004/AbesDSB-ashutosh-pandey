@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bus Booking</title>
+</head>
+
+<body>
+  <div style="width: 500px; height: auto; background-color: rgb(255, 255, 255); margin: auto; border: 2px solid black; box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); border-radius: 10px; font-family: Arial, sans-serif; padding-bottom: 20px;">
+    
+    <!-- Header -->
+    <div style="width: 100%; height: 50px; background-color: rgb(218, 152, 22); display: flex; align-items: center; padding-left: 10px; border-radius: 8px 8px 0 0;">
+      <img src="https://imgs.search.brave.com/V__FYKJdSu31h8V5lNZbr8pZNt6_92vihcF7bDULBTM/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAxOC8w/My8wNy8xNi8wNy9j/b2FjaC0zMjA2MzI2/XzY0MC5wbmc" width="40px" height="40px" style="border-radius: 50%; margin-right: 10px;">
+      <strong style="font-size: 20px; color: white;">Bus Booking</strong>
+    </div>
+    
+    <!-- Body -->
+    <div style="padding: 15px;">
+      <h2 style="text-align: center; color: rgb(218, 152, 22);">Welcome to Bus Booking System</h2>
+
+      <div style="display: flex; justify-content: space-between;">
+
+        <!-- Form -->
+        <div style="width: 55%;">
+          <form>
+            <label><strong>User Details</strong></label><br><br>
+
+            <label>Enter your Name</label><br>
+            <input type="text" placeholder="Your name..." style="width: 100%; padding: 5px; margin-bottom: 10px;"><br>
+
+            <label>Enter your Password</label><br>
+            <input type="password" placeholder="Your password..." style="width: 100%; padding: 5px; margin-bottom: 10px;"><br>
+
+            <label>Gender</label><br>
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+            <input type="radio" name="gender" value="other"> Other
+            <br><br>
+
+            <label>Select City</label><br>
+            <select style="width: 100%; padding: 5px; margin-bottom: 10px;">
+              <option value="">--Select City--</option>
+              <option value="Delhi">Delhi</option>
+              <option value="Mumbai">Mumbai</option>
+              <option value="Bangalore">Bangalore</option>
+              <option value="Kolkata">Kolkata</option>
+              <option value="Chennai">Chennai</option>
+            </select><br>
+
+            <label>Number of Seats</label><br>
+            <input type="number" min="1" max="10" placeholder="Enter seats..." style="width: 100%; padding: 5px; margin-bottom: 10px;"><br>
+
+            <button type="submit" style="background-color: rgb(218, 152, 22); color: white; padding: 8px 15px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px;">Book Seat</button>
+          </form>
+        </div>
+
+        <!-- Image -->
+        <div style="width: 40%; display: flex; justify-content: center; align-items: center;">
+          <img src="https://cdn.pixabay.com/photo/2014/04/02/10/56/bus-303422_1280.png" width="160px" height="240px" style="border-radius: 5px;">
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
